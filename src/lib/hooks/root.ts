@@ -1,5 +1,5 @@
 import {useState} from 'react'
-import api from "../../api.ts"
+import api from "../api.ts"
 
 const useRootApi = () => {
   const [name, setName] = useState('unknown')

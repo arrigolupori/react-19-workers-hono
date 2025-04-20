@@ -7,6 +7,8 @@ export default defineWorkersConfig({
       workers: {
         wrangler: {configPath: "./wrangler.jsonc"}
       }
-    }
+    },
+    include: ['worker/**/*.spec.ts'],
+    exclude: ['src/**/*'],
   }
 });

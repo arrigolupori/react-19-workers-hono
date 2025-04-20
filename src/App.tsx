@@ -1,7 +1,7 @@
 import viteLogo from '/vite.svg'
 
 import useBooksApi from './lib/hooks/books'
-import useRootApi from './lib/hooks/root'
+import useRootApi from './lib/hooks/root.ts'
 import Button from "./lib/components/Button"
 import RootLayout from "./lib/layouts/Root"
 
